@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>Watsonian Consulting HK Ltd.</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" />
+	<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<style>
+	body, html { 
+    overflow: hidden;
+}
+	picture {
+		display: block; width: 100%;
+		margin:  0px auto;
+		text-align: center;
+		height: 100%
+		
+	}
+	
+	picture > * {
+		max-width:  100%;
+		margin:  3px auto;
+		text-align: center
+	}
+</style>
+</head>
+<body style="background-color: #25262a">
+	<div id="container">
+		<picture>
+			<source media="(min-width: 1000px)" srcset="landscape.jpg" alt="" />
+			<source media="(min-width: 800px)" srcset="landscape.jpg" alt="" />
+			<source media="(min-width: 700px)" srcset="landscape.jpg" alt="" />
+			<source media="(min-width: 600px)" srcset="landscape.jpg" alt="" />
+			<source media="(min-width: 500px)" srcset="portrait.jpg" alt="" /> 
+			<source media="(min-width: 420px)" srcset="portrait.jpg" alt="" />
+			<img src="portrait.jpg" alt="" />
+		</picture>
+	</div>
+</body>
+</html>
